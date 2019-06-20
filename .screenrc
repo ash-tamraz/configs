@@ -1,0 +1,30 @@
+#
+#
+#
+#	.screenrc settings for 
+#	Adam Holm
+#
+#	used template for .screenrc
+#	files found in
+#	/etc/screenrc
+#
+
+
+startup_message off
+
+defscrollback 1024
+
+term screen-256color
+
+vbell off
+
+
+# ------------------------------------------------------------------------------
+# STARTUP SCREENS
+# ------------------------------------------------------------------------------
+
+screen -t make&test 2
+screen -t manpages 3
+screen -t moremanpages 4
+screen -t code 1
+

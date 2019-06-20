@@ -1,0 +1,10 @@
+[user]
+	email = asorholm@email.arizona.edu
+	name = Adam Holm
+[alias]
+	ci = commit
+	commit = =
+[core]
+	editor = vim
+[merge]
+	tool = meld
