@@ -8,7 +8,7 @@
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-  ZSH_THEME="dpoggi"
+  ZSH_THEME="gallois"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -105,3 +105,5 @@ export GOPATH=$HOME/go
 export PATH="~/.npm-global/bin:$PATH"
 export PATH="$HOME/.mozbuild/arcanist/bin:$HOME/.mozbuild/moz-phab:/usr/share/gradle/gradle-5.3.1/bin:$PATH:/usr/share/java/junit4-4.12.jar:$PATH"
 
+# Removing zcompdump file that causes problems when using autocomplete with Vim
+rm ~/.zcompdump*
