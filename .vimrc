@@ -54,7 +54,7 @@
 " Editor Settings:
 
 syntax enable       						" enables syntax highlighting
-colorscheme torte   						" set colorscheme
+colorscheme slate               " set colorscheme
 set expandtab       						" insert space characters when tab key is pressed
 set laststatus=2    						" displays filename at all times
 set number          						" displays line numbers
